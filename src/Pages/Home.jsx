@@ -28,7 +28,7 @@ const Home = () => {
           <div className="row justify-content-center my-5 text-center">
             <div className="col-11 col-md-5 col-lg-3 bgorange rounded-4 py-5 text-white me-3 ">
               <div>
-                <img src="./Images/Illustration/hands-white.png" alt="" />
+                <img src="./public/Images/Illustration/hands-whi" alt="" />
               </div>
               <div className="my-2">
                 <h3>Become a Volunteer</h3>
