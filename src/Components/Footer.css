@@ -1,0 +1,40 @@
+ /* FOOTER */
+
+ .m {
+  color: black; /* Default color for inactive links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.m:hover {
+  color: red; /* Color for links on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+.navbar-nav .m.active {
+  color: red; /* Set the active link color to red */
+  font-weight: bold; /* Optional: make the active link bold */
+}
+
+
+ .footer {
+ 
+    background-image: linear-gradient(rgba(6,11,9,0.9 ), rgba(6,11,9,0.9)),  url('./Images/Background/foot-bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+  }
+  .footer h4{
+  font-size: 16px;
+  font-weight:600;
+  font-family: sans-serif;
+  }
+  .footer a{
+    text-decoration: none;
+    color:var(--darkgrey)
+  }
+  .footer P{
+    color:var(--darkgrey) 
+  }
